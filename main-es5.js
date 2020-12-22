@@ -1105,11 +1105,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         this.http = http;
         this.router = router;
-        this.imageUrl = "http://appgrowthcompany.com:5005"; //imageUrl = 'http://192.168.1.168:4003';
+        this.imageUrl = "https://api.pixelfinance.xyz"; //imageUrl = 'http://192.168.1.168:4003';
         //imageUrl = 'http://13.232.208.65:4003'
         //baseUrl = 'http://192.168.1.168:4003';
 
-        this.baseUrl = 'https://3.138.141.253:3000'; //baseUrl = 'http://13.232.208.65:4003';
+        this.baseUrl = 'https://api.pixelfinance.xyz'; //baseUrl = 'http://13.232.208.65:4003';
 
         this.Super_id = new rxjs__WEBPACK_IMPORTED_MODULE_4__["BehaviorSubject"]('');
         this.$superId_admin = this.Super_id.asObservable();
